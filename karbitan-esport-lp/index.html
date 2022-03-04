@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script> -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/vendor/style.css">
+	<link rel="stylesheet" href="assets/vendor/responsive.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="script.js"> </script>
+	<link type="text/css" rel="stylesheet" href="assets/vendor/lightslider-master/src/css/lightslider.css" />                  
+	<script src="assets/vendor/lightslider-master/src/js/lightslider.js"></script>
+	<script type="text/javascript">
+
+
+  $(document).ready(function() {
+  
+
+    var slider = $('#lightSlider').lightSlider({
+       	
+        responsive : [
+        	 {
+                breakpoint:1400,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:1200,
+                settings: {
+                    item:2.5,
+                    slideMove:1,
+                    slideMargin:3,
+                  }
+            },
+
+             {
+                breakpoint:1100,
+                settings: {
+                    item:2.3,
+                    slideMove:1,
+                    slideMargin:3,
+                  }
+            },
+            {
+                breakpoint:600,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]
+    });
+
+     $('#ourteamSlider').lightSlider({
+       	
+        responsive : [
+        	 {
+                breakpoint:1400,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:1200,
+                settings: {
+                    item:2.5,
+                    slideMove:1,
+                    slideMargin:3,
+                  }
+            },
+
+             {
+                breakpoint:1100,
+                settings: {
+                    item:2.3,
+                    slideMove:1,
+                    slideMargin:3,
+                  }
+            },
+            {
+                breakpoint:768,
+                settings: {
+                    item:2,
+                    slideMove:1
+                  }
+            },
+            {
+                breakpoint:600,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]
+    });
+
+
+  $('.circleNext').click(function(){
+        slider.goToNextSlide(); 
+         
+    });
+
+  $('.circlePrev').click(function(){
+        slider.goToPrevSlide(); 
+    });
+  });
+</script>
+</head>
+<body>
+
+<style>
+	
+</style>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/navbar-logo.png" width="130" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="#content3">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#content4">Event</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#content5">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#content6">Contact</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+</nav>
+
+<section id="content1">
+	<div class="container">
+	<div class="container-img mx-auto">
+		<img src="assets/img/logo-sec1.png" alt="" width="722" >
+	</div>
+	</div>
+</section>
+<section id="content2" class="">
+	<div class="container" style="position: relative;">
+		
+			<img src="assets/img/line.svg"  alt=""  style="width: 100%; position: absolute; left: 0;">
+		<div class="box-logo d-flex" style="justify-content: space-between;" >
+			
+			<div class="box-img">
+				<img src="assets/img/logo_airbnb.png" alt="" width="100%">
+			</div>
+			<div class="box-img ">
+				<img src="assets/img/logo_hub.png" alt="" width="100%" >
+			</div>
+			<div class="box-img ">
+				<img src="assets/img/logo_google.png" alt="" width="100%" >
+			</div>
+				<div class="box-img ">
+				<img src="assets/img/logo_micro.png" alt="" width="100%" >
+			</div>
+				<div class="box-img ">
+				<img src="assets/img/logo_walmart.png" alt=""width="100%" >
+			</div>
+				<div class="box-img ">
+				<img src="assets/img/logo_fedex.png" alt="" width="100%" >
+			</div>
+			
+			
+		</div>
+		<img src="assets/img/line.svg" alt="" style="width: 100%; position: absolute; left: 0;">
+	</div>
+</section>
+<section id="content3">
+	<div class="container">
+		<div class="row">
+			<div class="bx3 col-md-6 col-12 col-sm-4">
+				<div class="box-img">
+					
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-8 col-12 ">
+				<div class="box-text">
+					<div class="d-flex">
+						<div class="box-line">
+							<img src="assets/img/small-line.svg" alt="">
+						</div>
+						<span class="ml-3">About us</span>
+					</div>
+					
+					<h2>Our service has been operating since 2007</h2>
+					<p>
+						Karbitan eSports merupakan salah satu departemen dari Cahaya Riset Teknologi yang fokus mewadahi para anak muda yang memiliki talenta dibidang eSport. Kami terus mencoba melatih talenta tersebut dengan mengelola kegiatan turnamen eSports.
+					</p>
+					<div class="box-btn">
+						<a href="#" class="readmore">
+							Read more <i class="fa fa-arrow-right"> </i>
+						  
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="content4">
+	<div class="container ">
+		<div class="box-container">
+				<div class="d-flex justify-content-between">
+				<div class="box-judul">
+					<h2>Our Event</h2>
+				</div>
+				<div class="box-slide d-flex ">
+					<div class="cr circlePrev mr-3">
+						<i class="fas fa-angle-left"> </i>
+					</div>
+					<div class="cr circleNext">
+						<i class="fas fa-angle-right"> </i>
+					</div>
+				</div>
+				</div>
+				<ul id="lightSlider">
+				  <li>
+				      <div class="con-card">
+							<div class="foto"></div>
+							<h3>
+								Event Name
+							</h3>
+							<div class="tag tg1"><p>Upcoming</p></div>
+							<div class="date d-flex">
+								<div class="box"><img src="assets/img/kalender.svg" alt=""></div>
+								<div class="box"><p>Kamis, 20 Mei 2021</p></div>
+							</div>
+						</div>
+				  </li>
+				  <li>
+				 	<div class="con-card">
+						<div class="foto"></div>
+						<h3>
+							Event Name
+						</h3>
+						<div class="tag tg2"><p>Running</p></div>
+						<div class="date d-flex">
+							<div class="box"><img src="assets/img/kalender.svg" alt=""></div>
+							<div class="box"><p>Kamis, 20 Mei 2021</p></div>
+						</div>
+					</div>
+				  </li>
+				  <li>
+				  	<div class="con-card">
+						<div class="foto"></div>
+						<h3>
+							Event Name
+						</h3>
+						<div class="tag tg3"><p>Completed</p></div>
+						<div class="date d-flex">
+							<div class="box"><img src="assets/img/kalender.svg" alt=""></div>
+							<div class="box"><p>Kamis, 20 Mei 2021</p></div>
+						</div>
+					</div>
+				  </li>
+				   <li>
+				  	<div class="con-card">
+						<div class="foto"></div>
+						<h3>
+							Event Name
+						</h3>
+						<div class="tag tg2"><p>Running</p></div>
+						<div class="date d-flex">
+							<div class="box"><img src="assets/img/kalender.svg" alt=""></div>
+							<div class="box"><p>Kamis, 20 Mei 2021</p></div>
+						</div>
+					</div>
+				  </li>
+				   <li>
+					  <div class="con-card">
+						<div class="foto"></div>
+						<h3>
+							Event Name
+						</h3>
+						<div class="tag tg3"><p>Completed</p></div>
+						<div class="date d-flex">
+							<div class="box"><img src="assets/img/kalender.svg" alt=""></div>
+							<div class="box"><p>Kamis, 20 Mei 2021</p></div>
+						</div>
+					</div>
+				  </li>
+				</ul>
+				
+			
+				
+			
+		</div>
+		
+	</div>
+</section>
+<section id="content5">
+	<div class="container">
+		<div class="box-container ">
+			<h2>Our Team</h2>
+			<p class="text-center">Lorem ipsum dolor sit amet constreterus.</p>
+		
+				<ul id="ourteamSlider">
+					
+				<li>
+				<div class="con-card">
+					<div class="circle"></div>
+					<h3>PUBGM</h3>
+					<div class="tropus d-flex">
+						<div class="box mr-3"><img src="assets/img/icon_trophy.png" alt=""></div>
+						<div class="box"><img src="assets/img/icon_user.png" alt=""></div>
+					</div>
+				</div>
+				</li>
+				<li>
+				<div class="con-card c2">
+					<div class="circle"></div>
+					<h3>Valorant</h3>
+					<div class="tropus d-flex">
+						<div class="box mr-3"><img src="assets/img/icon_trophy.png" alt=""></div>
+						<div class="box"><img src="assets/img/icon_user.png" alt=""></div>
+					</div>
+				</div>
+				</li>
+				<li>
+				<div class="con-card">
+					<div class="circle"></div>
+					<h3>MLBB</h3>
+					<div class="tropus d-flex">
+						<div class="box mr-3"><img src="assets/img/icon_trophy.png" alt=""></div>
+						<div class="box"><img src="assets/img/icon_user.png" alt=""></div>
+					</div>
+				</div>
+
+				</li>
+				<li>
+				<div class="con-card">
+					<div class="circle"></div>
+					<h3>MLBB</h3>
+					<div class="tropus d-flex">
+						<div class="box mr-3"><img src="assets/img/icon_trophy.png" alt=""></div>
+						<div class="box"><img src="assets/img/icon_user.png" alt=""></div>
+					</div>
+				</div>
+				
+				</li>
+				<li>
+				<div class="con-card">
+					<div class="circle"></div>
+					<h3>MLBB</h3>
+					<div class="tropus d-flex">
+						<div class="box mr-3"><img src="assets/img/icon_trophy.png" alt=""></div>
+						<div class="box"><img src="assets/img/icon_user.png" alt=""></div>
+					</div>
+				</div>
+				
+				</li>
+				</ul>
+		</div>
+	</div>
+</section>
+<section id="content6">
+	<div class="container">	
+		<div class="box-container">	
+			<div class="box-img">	
+				<img src="assets/img/logo-white.png" width="152" alt="">
+				</div>
+				<p class="p1">	 ADDRESS</p>
+				<h3>Gedung Centennial Tower Lt. 29 Unit D-E Jl. Jend Gatot Subroto Kav. 24 - 25 Karet Semanggi, Setiabudi, Jakarta Selatan</h3>
+				<p class="p2">	GET DIRECTION</p>
+				<p class="p3">	EMAIL</p>
+				<h3>hello@karbitanesports.com</h3>
+				<p class="p4">	PHONE</p>
+				<h3>021 - 30420786</h3>
+				<p class="p5">SOCIALS</p>
+				<div class="box-icon d-flex">
+					<div class="box"><i class="fab fa-facebook-square" style="font-size : 25px; color: white;"> </i></div>
+					<div class="box bc"> <i class="fab fa-twitter" aria-hidden="true" style="font-size : 25px; color: white;"></i></div>
+					<div class="box"><i class="fab fa-linkedin" aria-hidden="true" style="font-size : 25px; color: white;"></i></div>	
+					
+				</div>	
+
+		</div>
+		
+	</div>	
+</section>
+<section id="content7">
+	<div class="container ">	
+		<div class="row">	
+				<div class="col-md-6 col-5">
+					<div class="box-img">	
+						<img src="assets/img/logo-footer.png" width="98" alt="">
+						<div class="box-text">	
+							<p>	Karbitan eSports berfokus mewadahi para anak muda yang memiliki talenta dibidang eSport. </p>	
+						</div>
+						
+					</div>	
+				</div>
+				<div class="col-md-6 col-7">
+					<div class="fc d-flex">	
+					<div class="con-box c2">
+					<h3>About</h3>
+					<div class="box-nav">
+						<div class="box"><p>About Us</p></div>
+						<div class="box"><p>Evenet</p></div>
+						<div class="box"><p>Team</p></div>
+						<div class="box"><p>Contact</p></div>	
+					
+					
+						
+						
+					</div>
+					</div>	
+					<div class="con-box c3 ">
+						<h3>Subscribe our Newsletters</h3>
+						<div class="scrb d-flex">
+						<input placeholder="Your email">
+						<button> Subcribe</button>
+						</div>
+						<div class="box-socials d-flex">
+							<div class="box pr-5"><i class="fab fa-twitter" aria-hidden="true" style="font-size : 18px; color: white;"></i></div>
+							<div class="box"><i class="fab fa-facebook-square" style="font-size : 18px; color: white;"> </i></div>
+						</div>
+					</div>
+					</div>
+				</div>
+		</div>
+		<div class="line" >
+			<img src="assets/img/line.svg" alt="">
+		</div>
+		<footer> <p class="text-center">© 2021 Cahaya Riset Teknologi. All rights reserved.</p></footer>
+	</div>	
+</section>
+
+</body>
+</html>
