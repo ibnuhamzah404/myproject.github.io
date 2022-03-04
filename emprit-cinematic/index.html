@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<link type="text/css" rel="stylesheet" href="assets/vendor/lightslider-master/src/css/lightslider.css" />     
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">             <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="assets/vendor/script.js"> </script>
+
+<link rel="stylesheet" href="assets/vendor/responsive.css">
+	<script src="assets/vendor/lightslider-master/src/js/lightslider.js"></script>
+	<script>
+		$(document).ready(function() {
+  
+
+    		
+  
+$('#lightSlider').lightSlider({
+        item:3.2,
+        loop:false,
+        slideMove:2,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        responsive : [
+            {
+                breakpoint:800,
+                settings: {
+                    item:3,
+                    slideMove:1,
+                    slideMargin:6,
+                  }
+            },
+            {
+                breakpoint:600,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]
+    });  
+   	    	
+        
+	});
+	</script>
+	<style>
+		html
+		{
+
+			scroll-behavior: smooth;
+		}
+		body{
+			background-color:rgba(255, 255, 255, 1);
+		}
+		
+
+
+		section#content1{
+			
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			height: 100vh;
+			-webkit-animation: slide 15s ease-in-out infinite;
+
+			
+		}
+
+		@keyframes slide{
+			0%,100%{
+					background-image: url("assets/img/pemandangan1.jpg");
+			}
+
+			25%{
+				background-image: url("assets/img/pemandangan2.jpg");
+			}
+
+			50%{
+				background-image : url("assets/img/pemandangan3.jpg");
+			}
+
+			75%{
+				background-image: url("assets/img/pemandangan4.jpg");
+			}
+
+			
+		}
+
+		nav{
+			  background:rgba(0,0,0,0); 
+			position: absolute !important;
+			top: 0;
+			width: 100%;
+			height: 60px;
+			z-index: 10;
+		}
+
+	nav a{
+		color: 	#fff !important	;
+		font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+	}
+
+	section#content1 .container-img{
+		height: 100vh;
+    align-items: center;
+    display: flex;
+		width: fit-content;
+	}
+		section#content1 .container-img img{
+		
+			width: 500px;
+			margin: 116px 0 161px 0;
+		}
+
+		section#content2{
+			height: 867px;
+		}
+
+		section#content2 .box-container{
+			padding : 155px 0;
+		}
+
+
+		section#content2 .box-container h2{
+			font-weight: bold;
+			font-size: 44px;
+			line-height: 52px;
+			/* identical to box height, or 118% */
+
+			letter-spacing: 0.4px;
+
+			color: #2D2D2D;
+		}
+
+		section#content2  .box-text{
+			width: 590px;
+			height: 64px;
+			margin : 24px 0 48px 0;
+		}
+		section#content2 .box-container p{
+			font-size: 22px;
+			line-height: 32px;
+
+			color: rgba(45, 45, 45, 0.4);
+
+		}
+
+		
+		section#content2 .galeri .con-box{
+		
+			width: 320px;
+			height: 320px;
+			background: #EBEAED;
+			border-radius: 10px;
+		}
+		section#content2 .box-text-card{
+			margin-top: 24px;
+		}
+		section#content2 .box-text-card h3{
+
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+		}
+
+		section#content3{
+			height: 1880px;
+			background: rgba(219, 101, 29, 0.02);
+		}
+
+				section#content3 .box-container{
+					padding : 100px 0px;
+				}
+			section#content3 h2{
+			font-weight: bold;
+font-size: 42px;
+line-height: 52px;
+/* identical to box height, or 124% */
+
+text-align: center;
+letter-spacing: -0.4px;
+
+color: #2D2D2D;
+padding-bottom: 20px;
+
+		}
+		section#content3 p{
+		font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+text-align: center;
+
+color: rgba(45, 45, 45, 0.8);
+
+mix-blend-mode: normal;
+		
+}
+
+section#content3 .con-galeri{
+	padding-top : 80px;
+	gap : 30px;
+	flex-direction: row;
+}
+section#content3 .galeri{
+	flex-direction: column;
+
+	
+}
+
+.ggap{
+	gap : 27px;
+
+}
+
+.gngap{
+	gap : 10px;
+}
+
+section#content3 .galeri .img{
+	overflow: hidden;
+	
+
+		
+}
+
+section#content3  button{
+	height: 60px;
+border-opacity : 0.3;
+font-family: 'DM Sans';
+border: 2px solid rgba(45, 45, 45, 0.3);
+	width: 277.7142333984375px;
+	border-radius: 100px;
+	font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color: #2D2D2D;
+margin: 84px auto 0 auto;
+
+
+}
+
+section#content3 .c-up{
+	padding-top: 100px;
+}
+
+section#content3 .c-bt{
+	padding-bottom: 100px;
+}
+
+section#content3 .galeri .img img{
+
+
+	
+}
+
+section#content4 {
+	height: 1100px;
+	background: rgba(22, 107, 196, 0.02);
+}
+
+section#content4 .box-container{
+	padding : 107px 0px;
+	
+}
+
+
+section#content4 .box-container h2{
+	font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 52px;
+/* identical to box height, or 118% */
+
+text-align: center;
+letter-spacing: -0.4px;
+
+color: #2D2D2D;
+}
+
+section#content4 .box-container h3{
+	padding-top :53px;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+text-align: center;
+
+color: #2D2D2D;	
+}
+section#content4 .box-container p{
+	padding-top: 20px;
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+padding-bottom: 52px;
+/* identical to box height, or 145% */
+
+text-align: center;
+
+color: rgba(45, 45, 45, 0.4);
+
+mix-blend-mode: normal
+}
+
+section#content4 .box-container p.desc{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+padding-bottom: 24px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+
+color: rgba(45, 45, 45, 0.4);
+}
+
+section#content4 .head{
+	width: 250px;
+	height: 380px;
+	border: 2px solid #EBEAED;
+	
+	
+
+}
+
+.bt{
+	border-top: unset !important;
+
+}
+
+.br{
+		border-right: unset !important;
+}
+
+
+
+section#content4 .body{
+	height: 61.19525146484375px;
+	width: 250px;
+border: 2px solid #EBEAED;
+	
+
+
+box-sizing: border-box;
+
+
+}
+
+.brt{
+	border-radius: 0px 10px 0px 0px;
+}
+
+
+.bb{
+	border-radius: 0px 0 10px 10px;
+}
+
+
+
+.blt{
+	border-radius: 10px 0px 0px 0px;
+}
+
+.blb{
+	border-radius: 0px 0px 0px 10px;
+}
+.bxg{
+	flex-direction: column;
+}
+
+.box-cost{
+
+	width:70px;
+	height: 50px;
+	
+	margin : 0 auto;
+	position: relative;
+}
+
+.left-10{
+	left : -10px;
+}
+.box-cost .dolar{
+
+	position: absolute;
+}
+
+.box-cost .cost{
+
+	
+	text-align: center;
+	
+	width: fit-content;
+	margin: 0 auto;
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 58px;
+line-height: 70px;
+/* identical to box height, or 121% */
+
+text-align: center;
+letter-spacing: -1px;
+
+color: #2D2D2D;
+}
+
+p, h2, h3, button{
+	font-family: 'DM Sans', sans-serif;
+}
+section#content4 button{
+	margin-top: 45px;
+	height: 51px;
+	border-opacity : 0.3;
+	border: 2px solid rgba(45, 45, 45, 0.3);
+	width: 209px;
+	border-radius: 100px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #2D2D2D;
+}
+
+section#content4 .con-pricelist{
+	width: fit-content;
+	margin: 0 auto;
+	
+}
+section#content4 button:hover{
+	background: #D8591B;
+	color : #fff;
+	border : unset;
+}
+
+
+section#content4 p.btext{
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+/* identical to box height, or 162% */
+
+text-align: center;
+
+color: #2D2D2D;
+}
+
+section#content5 {
+	height: 840px;
+	background-color:rgba(133, 44, 196, 0.05);
+}
+
+section#content5 .box-text{
+	padding : 101px  0px;
+}
+
+section#content5 .box-text h2{
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 57px;
+	color: #2D2D2D;
+}
+
+section#content5 .box-text span p {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	/* identical to box height, or 186% */
+	margin: 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	color: rgba(45, 45, 45, 0.4);
+}
+
+section#content5 .box-text h3{
+	margin-bottom: 24px;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 52px;
+	/* identical to box height, or 162% */
+
+	letter-spacing: -0.4px;
+
+	color: rgba(45, 45, 45, 0.8);
+
+}
+
+section#content6{
+	height: 130px;
+	background-color: #fff;
+}
+section#content6 p{
+font-size: 16px;
+vertical-align: middle;
+
+/* identical to box height, or 162% */
+
+text-align: center;
+
+color: rgba(45, 45, 45, 0.4);
+}
+
+section#content6 .circle{
+	width: 40px;
+	height: 40px;
+
+	border: 2px solid rgba(45, 45, 45, 0.2);
+	border-radius: 100px;
+}
+</style>
+
+
+</head>
+<body>
+	<nav class="navbar  navbar-inverse navbar-expand-lg navbar-light">
+  <div class="container">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo_empirit.png" width="130" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="#content3">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#content4">Event</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#content5">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#content6">Contact</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+</nav>
+	<section id="content1">
+		<div class="container">
+			<div class="container-img mx-auto">
+				<img src="assets/img/logo_utama.png" alt=""  width="680;">
+			</div>
+		</div>
+	</section>
+	<section id="content2">
+		<div class="container">
+			<div class="box-container">
+				<h2>Gear</h2>
+				<div class="box-text">
+					<p>The most important part of the Startup Framework is the samples. The samples form a set of 20 usable pages.</p>
+				</div>
+				<div class="galeri" >
+					<ul id="lightSlider">
+					  <li>
+					  	<div class="con-box">
+					  		
+					  	</div>
+					  	<div class="box-text-card">
+					  			<h3>DJI Inspire 2 (Zenmuse x3)</h3>	
+					  	</div>
+					  
+					  </li>
+					  <li>
+					  	<div class="con-box">
+					  		
+					  	</div>
+					  	<div class="box-text-card">
+					  			<h3>DJI Mavic Air 2</h3>	
+					  	</div>
+					  </li>
+					  <li>
+					  	<div class="con-box">
+					  		
+					  	</div>
+					  	<div class="box-text-card">
+					  			<h3>DJI Mavic Pro</h3>	
+					  	</div>
+					  </li>
+					  <li>
+					  	<div class="con-box">
+					  		
+					  	</div>
+					  	<div class="box-text-card">
+					  			<h3>DJI Spark</h3>	
+					  	</div>
+					  </li>
+					  <li>
+					  	<div class="con-box">
+					  		
+					  	</div>
+					  	<div class="box-text-card">
+					  			<h3>DJI Inspire 2 (Zenmuse x3)</h3>	
+					  	</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="content3">
+
+		<div class="container c-up">
+		
+				<h2>More than 150 pictures</h2>
+				<p>Many carefully crafted components to present your business.</p>
+				
+				
+		
+			
+			
+		
+		</div>
+		<div class="con-galeri mx-auto  d-flex" style="width: fit-content;">
+					<div class="galeri ggap d-flex">
+						<div class="img""><img src="assets/img/Mask-0.png" alt=""></div>
+						<div class="img"><img src="assets/img/Mask-5.png" alt=""></div>
+						
+						<div class="img"><img src="assets/img/Mask-1.png" height="98%" width="100%;" alt=""></div>
+						
+					</div>
+					<div class="galeri ggap d-flex">
+						<div class="img" ><img src="assets/img/work2.png" alt=""></div>
+						<div class="img" ><img src="assets/img/Mask-7.png" alt=""></div>
+							<div class="img"><img src="assets/img/Mask-4.png" alt=""></div>
+						
+						<div class="img"><img src="assets/img/Mask.png" alt=""></div>
+						
+						
+					
+						
+						
+					</div>
+					<div class="galeri ggap d-flex g3">
+						<div class="img"><img src="assets/img/Mask-8.png" alt=""></div>
+						
+						<div class="img"><img src="assets/img/Mask-6.png" alt=""></div>
+						
+						
+						
+							<div class="img"><img src="assets/img/Mask-3.png" alt=""></div>
+						<div class="img"><img src="assets/img/Mask-2.png" alt=""></div>
+					
+					</div>
+				
+				</div>
+				<div class="container c-bt">
+					<button class="btn mx-auto d-block"> View all Components</button>
+				</div>
+	</section>
+	<section id="content4">
+		<div class="container">
+			<div class="box-container">
+				<h2>Pricelist</h2>
+				<p>Start with free trial. No credit card needed. Cancel at anytime.</p>
+				<div class="con-pricelist d-flex" style="">
+					
+					<div class="bxg box-free d-flex">
+						<div class="head br blt">
+							<h3 class="type"> Free </h3>
+							<p class="desc"> Forever Free </p>
+							<div class="box-cost">
+								<div class="dolar">
+									$
+								</div>
+								<div class="cost ">
+									0
+								</div>
+							</div>
+
+							<button class="btn mx-auto d-block">Get Started for Free</button>
+						</div>
+						<div class="body bt br blb">
+								<p class="btext">1 GB of Space</p>
+
+						</div>
+					</div>
+					<div class="bxg box-free d-flex">
+						<div class="head br">
+							<h3 class="type"> Starter </h3>
+							<p class="desc">Perfect for Freelancers</p>
+							<div class="box-cost">
+								<div class="dolar">
+									$
+								</div>
+								<div class="cost ">
+									19
+								</div>
+								
+							</div>
+							<button class="btn mx-auto d-block">Get Started </button>
+							
+						</div>
+						<div class="body bt br">
+							<p class="btext">10 GB of Space </p>
+						</div>
+						<div class="body bt br">
+							<p class="btext">Unlimited Projects</p>
+						</div>
+						<div class="body bt br blb">
+							<p class="btext">Unlimited Users</p>
+						</div>
+					</div>
+					<div class="bxg box-free d-flex">
+						<div class="head br">
+							<h3 class="type"> Pro </h3>
+							<p class="desc"> Perfect for Small Team </p>
+							<div class="box-cost">
+								<div class="dolar  left-10">
+									$
+								</div>
+								<div class="cost ">
+									49
+								</div>
+							</div>
+							<button class="btn mx-auto d-block">Get Started </button>
+						</div>
+						<div class="body bt br">
+							<p class="btext">100 GB of Space</p>
+						</div>
+						<div class="body bt br">
+							<p class="btext">Unlimited Projects</p>
+						</div>
+						<div class="body bt br">
+							<p class="btext">Unlimited Users</p>
+						</div>
+						<div class="body bt blb br">
+							<p class="btext">Unlimited Dates</p>
+						</div>
+					</div>
+					<div class="bxg box-free d-flex">
+						<div class="head brt">
+							<h3 class="type"> Premium </h3>
+							<p class="desc">Forever Free </p>
+							<div class="box-cost" >
+								<div class="dolar left-10 ">
+									$
+								</div>
+								<div class="cost">
+									149
+								</div>
+							</div>
+							<button class="btn mx-auto d-block">Get Started </button>
+						</div>
+						<div class="body bt">
+							<p class="btext">As Much Space as Needed</p>
+						</div>
+						<div class="body bt">
+							<p class="btext">Unlimited Projects</p>
+						</div>
+						<div class="body bt">
+							<p class="btext">Unlimited Users</p>
+							
+						</div>
+						<div class="body bt ">
+							<p class="btext">Unlimited Dates</p>
+						</div>
+						<div class="body bt bb">
+							<p class="btext">Unlimited File Recovery</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="content5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-12">
+					<div class="box-text">
+					<h2>Contact us</h2>
+					<span><p>Email</p></span>
+					<h3>hello@empritcinematic.com</h3>
+					<span>
+						<p>Phone</p>
+					</span>
+					<h3>021 - 304 207 86</h3>
+					<span>
+						<p>Address</p>
+					</span>
+					<h3>Gedung Centennial Tower Lt. 29 Unit D-E Jl. Jend Gatot Subroto Kav. 24 - 25 Karet Semanggi, Setiabudi, Jakarta Selatan</h3>
+					<span>
+						<p>WORKSHOP Address</p>
+					</span>
+					<h3>Jl. Jend Gatot Subroto Kav. 24 - 25 Karet Semanggi, Setiabudi, Jakarta Selatan</h3>
+					</div>
+				</div>
+				<div class="col-md-5 ">
+					<div class="box-img bg-primary" style="overflow: hidden; height: 100%" >
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.004696903974!2d106.81370021108684!3d-6.230581399999981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f31cc259d747%3A0x4ce371f92ccf2bd0!2sCahaya%20Riset%20Teknologi!5e0!3m2!1sid!2sid!4v1623528623205!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="content6">
+		<div class="container " style="height: 100%;">
+		
+			<div class="d-flex  justify-content-between  align-items-center " style="height: 100%;" >
+				<div class="box"><img src="assets/img/logo_footer.png" alt=""></div>
+				<div class="box p-3"><p>© 2021 Cahaya Riset Teknologi. All rights reserved.</p></div>
+				<div class="box d-flex">
+					<div class="circle mr-3 d-flex align-items-center justify-content-center" style="justify-content: center;"><i class="fab fa-twitter" aria-hidden="true" style="font-size : 18px; color: black;"></i> </i></div>
+					<div class="circle  d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f" style="font-size : 18px; color: black;"></i></div>
+				</div>
+			</div>					
+		
+		</div>
+	</section>
+</body>
+</html>

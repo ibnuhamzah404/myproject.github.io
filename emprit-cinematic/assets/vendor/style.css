@@ -1,0 +1,411 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body{
+	background-color:rgba(255, 255, 255, 1);
+}
+
+section#content1{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	-webkit-animation: slide 15s ease-in-out infinite;			
+}
+
+@keyframes slide{
+	0%,100%{
+			background-image: url("../img/pemandangan1.jpg");
+	}
+
+	25%{
+		background-image: url("../img/pemandangan2.jpg");
+	}
+
+	50%{
+		background-image : url("../img/pemandangan3.jpg");
+	}
+
+	75%{
+		background-image: url("../img/pemandangan4.jpg");
+	}
+
+	
+}
+
+nav{
+	background:rgba(0,0,0,0); 
+	position: absolute !important;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	z-index: 10;
+}
+
+nav a{
+	color: 	#fff !important	;
+	font-size: 18px;
+	line-height: 20px;
+/* identical to box height, or 143% */
+
+}
+
+section#content1 .container-img{
+	height: 100vh;
+    align-items: center;
+    display: flex;
+	width: fit-content;
+}
+section#content1 .container-img img{
+	width: 500px;
+	margin: 116px 0 161px 0;
+}
+
+section#content2{
+	height: 867px;
+}
+
+section#content2 .box-container{
+	padding : 155px 0;
+}
+
+
+section#content2 .box-container h2{
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 52px;
+	letter-spacing: 0.4px;
+	color: #2D2D2D;
+}
+
+section#content2  .box-text{
+	width: 590px;
+	height: 64px;
+	margin : 24px 0 48px 0;
+}
+section#content2 .box-container p{
+	font-size: 22px;
+	line-height: 32px;
+	color: rgba(45, 45, 45, 0.4);
+}
+
+
+section#content2 .galeri .con-box{
+	width: 320px;
+	height: 320px;
+	background: #EBEAED;
+	border-radius: 10px;
+}
+section#content2 .box-text-card{
+	margin-top: 24px;
+}
+
+section#content2 .box-text-card h3{
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+section#content3{
+	height: 1880px;
+	background: rgba(219, 101, 29, 0.02);
+}
+
+section#content3 .box-container{
+	padding : 100px 0px;
+}
+
+section#content3 h2{
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: -0.4px;
+	color: #2D2D2D;
+	padding-bottom: 20px;
+}
+
+section#content3 p{
+	font-size: 22px;
+	line-height: 32px;
+	text-align: center;
+	color: rgba(45, 45, 45, 0.8);
+	mix-blend-mode: normal;
+}
+
+section#content3 .con-galeri{
+	padding-top : 80px;
+	gap : 30px;
+	flex-direction: row;
+}
+section#content3 .galeri{
+	flex-direction: column;
+}
+
+.ggap{
+	gap : 27px;
+}
+
+.gngap{
+	gap : 10px;
+}
+
+section#content3 .galeri .img{
+	overflow: hidden;
+	width: 382px;
+
+		
+}
+
+section#content3  button{
+	height: 60px;
+	border-opacity : 0.3;
+	font-family: 'DM Sans';
+	border: 2px solid rgba(45, 45, 45, 0.3);
+	width: 277.7142333984375px;
+	border-radius: 100px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #2D2D2D;
+	margin: 84px auto 0 auto;
+}
+
+section#content3 .c-up{
+	padding-top: 100px;
+}
+
+section#content3 .c-bt{
+	padding-bottom: 100px;
+}
+
+section#content3 .galeri .img img{
+	width : 100%;
+}
+
+section#content4 {
+	height: 1100px;
+	background: rgba(22, 107, 196, 0.02);
+}
+
+section#content4 .box-container{
+	padding : 107px 0px;
+	
+}
+
+
+section#content4 .box-container h2{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: -0.4px;
+	color: #2D2D2D;
+}
+
+section#content4 .box-container h3{
+	padding-top :53px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 32px;
+	text-align: center;
+	color: #2D2D2D;	
+}
+section#content4 .box-container p{
+	padding-top: 20px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 32px;
+	padding-bottom: 52px;
+	text-align: center;
+	color: rgba(45, 45, 45, 0.4);
+	mix-blend-mode: normal
+}
+
+section#content4 .box-container p.desc{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+padding-bottom: 24px;
+line-height: 26px;
+text-align: center;
+color: rgba(45, 45, 45, 0.4);
+}
+
+section#content4 .head{
+	width: 250px;
+	height: 380px;
+	border: 2px solid #EBEAED;
+}
+
+.bt{
+	border-top: unset !important;
+
+}
+
+.br{
+		border-right: unset !important;
+}
+
+
+
+section#content4 .body{
+	height: 61.19525146484375px;
+	width: 250px;
+	border: 2px solid #EBEAED;
+	box-sizing: border-box;
+
+
+}
+
+.brt{
+	border-radius: 0px 10px 0px 0px;
+}
+
+
+.bb{
+	border-radius: 0px 0 10px 10px;
+}
+
+.blt{
+	border-radius: 10px 0px 0px 0px;
+}
+
+.blb{
+	border-radius: 0px 0px 0px 10px;
+}
+.bxg{
+	flex-direction: column;
+}
+
+.box-cost{
+	width:70px;
+	height: 50px;
+	margin : 0 auto;
+	position: relative;
+}
+
+.left-10{
+	left : -10px;
+}
+.box-cost .dolar{
+
+	position: absolute;
+}
+
+.box-cost .cost{
+	text-align: center;
+	width: fit-content;
+	margin: 0 auto;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 70px;
+	text-align: center;
+	letter-spacing: -1px;
+	color: #2D2D2D;
+}
+
+p, h2, h3, button{
+	font-family: 'DM Sans', sans-serif;
+}
+section#content4 button{
+	margin-top: 45px;
+	height: 51px;
+	border-opacity : 0.3;
+	border: 2px solid rgba(45, 45, 45, 0.3);
+	width: 209px;
+	border-radius: 100px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #2D2D2D;
+}
+
+section#content4 .con-pricelist{
+	width: fit-content;
+	margin: 0 auto;
+	
+}
+section#content4 button:hover{
+	background: #D8591B;
+	color : #fff;
+	border : unset;
+}
+
+
+section#content4 p.btext{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	color: #2D2D2D;
+}
+
+section#content5 {
+	height: 840px;
+	background-color:rgba(133, 44, 196, 0.05);
+}
+
+section#content5 .box-text{
+	padding : 101px  0px;
+}
+
+section#content5 .box-text h2{
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 57px;
+	color: #2D2D2D;
+}
+
+section#content5 .box-text span p {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	margin: 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: rgba(45, 45, 45, 0.4);
+}
+
+section#content5 .box-text h3{
+	margin-bottom: 24px;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 52px;
+	letter-spacing: -0.4px;
+	color: rgba(45, 45, 45, 0.8);
+
+}
+
+section#content6{
+	height: 130px;
+	background-color: #fff;
+}
+section#content6 p{
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	color: rgba(45, 45, 45, 0.4);
+}
+
+section#content6 .circle{
+	width: 40px;
+	height: 40px;
+	border: 2px solid rgba(45, 45, 45, 0.2);
+	border-radius: 100px;
+}
