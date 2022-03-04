@@ -1,0 +1,111 @@
+@media (max-width: 500px){
+.container-circle{
+	height: 805px !important;
+}
+.container-circle .con-box{
+	width : 90% !important;
+	    height: auto !important;
+
+}
+.container-circle .banner{
+	flex-direction: column;
+	width: 100%;
+	padding: 0 !important;
+
+}
+
+.container-circle .banner .description{
+	margin-left: 0 !important;
+	width: 100% !important;
+	height: auto !important;
+}
+
+.container-circle .banner{
+	height: auto !important;
+}
+
+.container-circle .banner .logo{
+	margin: 35px auto;
+}
+
+
+.container-circle .banner .description h2{
+	font-size: 29px !important;
+	text-align: center;
+
+}
+
+.container-circle .banner .description{
+	text-align: center;
+}
+.container-circle .banner .description  ul{
+	list-style: none;
+	padding-left: 0px !important;
+}
+.container-circle .banner .description li{
+	padding : 0 10px;
+	
+}
+
+section#content2 .con-box{
+	width: 100% !important;
+	height: auto !important;
+}
+
+section#content2 .con-box .box-regis{
+	width: 90% !important;
+	height: auto !important;
+}
+
+section#content2 .con-box .box-regis input[type="text"]{
+	width: 100%;
+}
+
+section#content2 .con-box .box-regis .box-upload-logo,
+section#content2 .con-box .box-regis .box-anggota-tim{
+	flex-direction: column;
+	width: 100% !important;
+}
+section#content2 .con-box .box-regis .box-anggota-tim{
+	align-items: unset !important;
+	padding-top: 32px !important;
+	margin : 0 !important;
+}
+
+section#content2 .con-box .box-regis .box-upload-logo{
+	height: auto !important;
+	margin-bottom: 0 !important;
+}
+
+.box-button{
+	
+	padding : 0 !important;
+	display: flex;
+	    margin-top: 30px !important;
+}
+.box-button .btn-simpan{
+	margin-right: 5% !important;
+}
+.box-button .btn{
+	width: 120px !important;
+}
+section#content7 {margin-top: 50px !important;}
+  section#content7 .line{ display: none;}
+    section#content7 p{ padding-top: 0 !important; }
+    section#content7 footer{padding: 30px 0px;}
+    section#content7 .row{display: none;}
+    section#content7{height: 100px !important;}
+    section#content7 .con-box{
+    	width: 100% !important;
+    }
+
+    .modal {
+    	width: 85% !important;
+    	margin : 0 auto !important;
+    	right: 0;
+    }
+
+    #content2 .b-right .box-information{
+    	height: auto !important;
+    }
+}
